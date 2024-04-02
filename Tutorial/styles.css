@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 70vh;
+    border-radius: 3vh;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#main-heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-items {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
